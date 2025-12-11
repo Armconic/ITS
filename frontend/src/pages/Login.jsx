@@ -62,7 +62,7 @@ function Login() {
       style={{ backgroundImage: "url('/assets/bg_login.jpg')" }}
     >
       <div className="absolute top-4 right-4 text-white text-sm bg-black/40 px-3 py-1 rounded">
-        user = admin | pass = 1234
+        user = admin || pass = 1234
       </div>
       <div className="w-full max-w-md p-8 rounded-lg">
         {/* LOGO */}
