@@ -15,7 +15,8 @@ export default defineConfig({
     allowedHosts: ['conic.ddns.net'],
     proxy: {
       '/api': {
-        target: 'http://backend:50001',
+        // target: 'http://backend:50001',
+        target: 'http://192.168.1.111:50001',
         changeOrigin: true,
         secure: false,
       },
